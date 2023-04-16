@@ -1,0 +1,144 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin: auto;
+    width: 500px;
+    background: linear-gradient(rgba(0, 216, 148, 0.1),#FFFFFF); 
+}
+
+/*------------------------Header-------------------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+}
+
+/*------------------------Main-------------------*/
+
+main{
+    display: flex;
+    position: relative;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 30px;
+}
+
+/*------------------------Footer-------------------*/
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    background-color: black;
+}
+/*------------------------Images------------------*/
+
+.logo{
+    height: 40px;
+}
+
+.icon-profile , .icon-chat{
+    height: 32px;
+    margin: 1.5625rem 1.125rem;
+}
+
+.main-img{
+    max-width: 90%; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px white;
+}
+
+.icon-cross, .icon-heart{
+    margin-top: 1.5625rem;
+    margin-bottom: 1.5625rem;
+    background-color: white;
+    padding: 0.625rem;
+    border-radius: 50%;
+}
+
+.icon-cross{
+    width: 25px;
+}
+
+.icon-heart{
+    width: 28px;
+}
+
+.icon-cross:hover{
+    background-color: #FFE7EF;
+}
+
+.icon-heart:hover{
+    background-color: #DBFFF4;
+}
+
+/*-----------------------Fonts--------------------*/
+
+.name{
+    font-weight: bolder;
+}
+
+.main-text p{
+    margin: 0;
+}
+
+.main-text{
+    background-color: rgb(255, 255, 255,0.6);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.name{
+    font-size: 32px;
+    color: white;
+    text-shadow: 0px 0px 30px black;
+}
+
+.studios{
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    text-shadow: 0px 0px 30px white;
+}
+
+/*-----------------------------Badges-----------------------*/
+
+.badge{
+    width: 200px;
+    transform: rotate(-30deg);
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.container{
+    position: relative;
+}
+
+.badge-like{
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.badge-nope{
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
